@@ -44,7 +44,7 @@ header .row .twmc-img {
 }
 header .row .about-twmc {
     padding: 13vmin 4vmin;
-    font-family: var(--Rubik);
+    font-family: var(--Sniglet-font);
     color: white;
 }
 header .row .twmc-img img {
