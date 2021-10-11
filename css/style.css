@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -44,7 +45,7 @@ header .row .twmc-img {
 }
 header .row .about-twmc {
     padding: 13vmin 4vmin;
-    font-family: var(--Sniglet-font);
+    font-family: 'Merriweather', serif;
     color: white;
 }
 header .row .twmc-img img {
