@@ -9,9 +9,9 @@ section {
     overflow-x: hidden;
 }
 :root {
-    --Sniglet-font:"Sniglet", cursive;
-    --Rubik:"Rubik", cursive;
-    --Patua:"Patua One", cursive;
+    --Sniglet-font:"Sniglet";
+    --Rubik:"Rubik";
+    --Patua:"Patua One";
     --light-black:#2e2c2caf;
     --bggradient:linear-gradient(to bottom, #dd2476, #ff512f);
     --light-grey:rgba(255,255,255,0.815)
@@ -43,7 +43,7 @@ header .row .twmc-img {
     padding: 4.2vmin 1vmin;
 }
 header .row .about-twmc {
-    padding: 13vmin 1vmin;
+    padding: 13vmin 4vmin;
     font-family: var(--Rubik);
     color: white;
 }
