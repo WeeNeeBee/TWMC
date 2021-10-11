@@ -1,0 +1,99 @@
+@import url('http://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,
+section {
+    overflow-x: hidden;
+}
+:root {
+    --Sniglet-font:"Sniglet", cursive;
+    --Rubik:"Rubik", cursive;
+    --Patua:"Patua One", cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-grey:rgba(255,255,255,0.815)
+}
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+.navbar-nav a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+header .nav-item:last-child {
+    padding-right: 2rem;
+}
+header .nav-item {
+    padding: 0.9em;
+}
+header .navbar-brand>span {
+    text-decoration: underline;
+}
+header .nav-link:hover {
+    color: black;
+}
+header .row .twmc-img {
+    padding: 4.2vmin 1vmin;
+}
+header .row .about-twmc {
+    padding: 13vmin 1vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+header .row .twmc-img img {
+    width: 65%;
+}
+header .container .about-twmc button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+header .container .about-twmc button a {
+    text-decoration: none;
+    color: #ff512f;
+}
+header .container .about-twmc button a:hover {
+    color: white;
+}
+header .container .about-twmc button:hover {
+    background: transparent;
+    border: 1px solid white;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 10vmin;
+}
+footer p>span {
+    color: #ff512f;
+}
+footer input {
+    border: none !important;
+}
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i {
+    color: #dd2476;
+    padding: 0 0.5em;
+}
+.card-body h3 {
+    color: #ff512f;
+}
+.card:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+.main {
+    background: rgba(233, 223, 191, 0.8);
+}
